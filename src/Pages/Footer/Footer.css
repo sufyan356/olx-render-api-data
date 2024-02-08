@@ -1,0 +1,118 @@
+.rowCustom{
+    /* border: 1px solid red; */
+}
+
+.customFooterHeadings{
+    font-size: 1rem!important;
+    text-align: center;
+}
+.categories{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    text-align: justify;
+    /* border: 1px solid brown; */
+    /* width: 100%!important; */
+}
+.colCustom{
+    background-color: #EBEEEF;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    line-height: 3;
+    min-height: 22rem;
+
+}
+@media(max-width:600px){
+    .colCustom{
+        background-color: #EBEEEF;
+        display: flex;
+        flex-direction: column;
+        text-align: justify;
+        line-height: 2;
+        height: 18rem;
+        overflow-y: auto;
+    }
+    .categoryData{
+        text-align: center;
+
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.categoryData{
+    text-align: justify;
+    /* border: 1px solid red; */
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.categoryData:hover{
+    color: rgb(31, 167, 167);
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.trendingSearches,
+.OLX,
+.followUs{
+    display: flex!important;
+    flex-direction: column; 
+    text-align: center;
+    align-items: center;
+    /* justify-content: center; */
+}
+.trendingSearchedHeading,
+.categoryHead,
+.OLXFooterHeading,
+.FooterFollowUsHeading{
+    border-bottom: 2px solid green;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bolder;
+    margin-bottom: 1rem;
+}
+.viewMoreBtn{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    border: 1px solid grey;
+    border-radius: 2rem;
+    color: black;
+    width: 7rem;
+    margin-left: 3rem;
+    /* margin-right: auto; */
+}
+/* .footerCustom{
+    position: absolute;
+    top: 70%!important;
+    right: 0%;
+} */
+@media(max-width:991px){
+    .colCustom{
+        /* border: 1px solid red; */
+        padding: 0rem;
+        text-align: center;
+        font-size: 0.9rem;
+        height: 20rem;
+    }
+    .viewMoreBtn{
+        /* border: 1px solid red; */
+        margin-right: auto!important;
+        margin-left: auto!important;
+        color: black;
+    }
+   
+  }
+.viewMoreBtn:hover{
+    background-color: black;
+    color: white;
+}
+.footerLoader{
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

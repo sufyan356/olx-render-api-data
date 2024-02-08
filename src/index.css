@@ -1,0 +1,351 @@
+ :root {
+  overflow-x: hidden!important;
+} 
+
+/* SLIDER  */
+.carousel-control-next,
+.carousel-control-prev,
+.carousel-indicators{
+  color: black!important;
+}
+.carousel{
+  /* border: 2px solid blue; */
+  height: auto;
+}
+.carousel-item{
+  height: 13rem!important;
+}
+.card-img-top{
+  height: -webkit-fill-available!important;
+}
+span.carousel-control-next-icon,
+span.carousel-control-prev-icon{
+  background-color: #090000!important;
+}
+.carousel-indicators > button{
+  background-color: #090000!important;
+
+}
+
+
+/* CARD  */
+.cardCustom{
+    height: 10rem!important;
+    width: 100%!important;
+    object-fit: cover;
+    cursor: pointer;
+}
+.cardsLink{
+  text-decoration: none!important;
+}
+.title{
+  /* border: 1px solid green; */
+  max-height: 5rem!important;
+  margin-top: 0.5rem;
+}
+
+.card:hover {
+  transform: scale(1.05); /* Increase the size on hover */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow */
+}
+.cardDesc:hover,
+.productDetails:hover,
+.productDesc:hover,
+.productRupees:hover
+ {
+  transform: scale(1); /* Increase the size on hover */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow */
+}
+.cardLoc:hover{
+  transform: scale(1); /* Increase the size on hover */
+  box-shadow:none
+}
+
+
+
+
+.description{
+  /* border: 1px solid purple; */
+  max-height: 5rem!important;
+  overflow-y: hidden;
+  margin-top:  0.5rem;
+  /* margin-bottom: 1rem; */
+  /* padding: 0.5rem; */
+
+  /* overflow: hidden; */
+}
+.price{
+  max-height: 10rem!important;
+  margin-top: 1rem;
+  /* padding:0.2rem; */
+  font-weight: bolder;
+    font-size: 1.4rem;
+      /* border: 1px solid purple; */
+
+}
+
+.card{
+  margin-bottom: 1rem;
+  width: 20rem;
+  height: 0%;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+.cardBody{
+  height: 14rem;
+  cursor: pointer;
+}
+.colCustomClassForCards{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.cardLoader{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.opacity{
+  opacity: 0;
+}
+
+.prevBtn,
+.nextBtn {
+  position: absolute;
+  top: 100%;
+  transform: translateY(-50%);
+  font-size: 2rem;
+  cursor: pointer;
+  z-index: 10;
+
+}
+
+.prevBtn {
+  left: -48%;
+}
+
+.nextBtn {
+  right: -48%;
+}
+
+@media(max-width:1024px){
+  .prevBtn,
+  .nextBtn {
+    top: 100%;
+    font-size: 3rem;
+    cursor: pointer;
+  }
+  
+  .prevBtn {
+   
+    left: -47%;
+  }
+  
+  .nextBtn {
+    right: -47%;
+  }
+  .colCustomClassForCards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.categoryName{
+  padding-left: 2rem;
+    margin: 0rem;
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: cursive;
+    text-transform: capitalize;
+}
+
+
+@media(max-width:1000px){
+  .colCustomClassForCards{
+    width: 10rem!important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .cardsLink{
+    width: 100%!important;
+  }
+  /* .card{
+    width: 100%!important;
+    width: 10rem!important;
+  } */
+  .productsCard{
+    width: 10rem!important;
+    margin-right: auto;
+    margin-left: auto;
+
+  }
+  .cardCustom{
+    object-fit: cover;
+  }
+  .cardBody{
+    padding: 0rem;
+    text-align: center;
+    font-size: 0.8rem;
+    height: 8rem;
+  }
+  
+  .description{
+    max-height: 50%!important;
+    overflow-y: hidden;
+    padding: 0rem;
+    margin: 0rem;
+    font-size: 0.9rem;
+  }
+  .price{
+    padding: 0rem;
+    margin: 0rem;
+    font-size: 0.9rem;
+  }
+  .title{
+    padding: 0rem!important;
+    margin: 0rem;
+    font-size: 0.9rem!important;
+  }
+ 
+}
+
+@media(max-width:800px){
+  .prevBtn,
+  .nextBtn {
+   display: none;
+  }
+  
+
+}
+@media(max-width:400px){
+  .cardsRow{
+    margin-left: auto!important;
+      margin-right: auto!important;
+      display: contents!important;
+  }
+}
+.seeMoreClass{
+  margin: 1rem;
+  display: block;
+  margin-left: auto;
+  padding: 0.5rem;
+  border-radius: 2rem;
+  color: white;
+  background-color: black!important;
+  width: 9rem!important;
+}
+
+
+/* PRODUCT DESCRIPTION  */
+.chat{
+  /* border: 1px solid red; */
+  height: 50%;
+ 
+}
+.location{
+  /* border: 1px solid green!important; */
+  height: 50%;
+ 
+
+}
+ /* slider for product Description  */
+ .sliderContainerForProductDesc{
+  /* border: 1px solid red; */
+  height: 20rem;
+ }
+ .productDesSliderCustom{
+  height: 20rem!important;
+ }
+ .chatAndLocationCOntainer{
+  /* border: 1px solid blue; */
+  height: 90%;
+ }
+ .customerDesc{
+  margin-left: 1rem;
+ }
+ .customerImg{
+    /* border: 1px solid red; */
+    border-radius: 50%;
+    width: 5rem;
+    padding: 0rem;
+ }
+ .btnContainerChat{
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5rem;
+ }
+ .btnContainerChat > button{
+  background-color: #002F34;
+  color: white;
+  border: none!important;
+  box-shadow: none!important;
+  width: 80%!important;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0.5rem;
+ }
+ .btnContainerChat > button:hover,
+ .btnContainerChat > button:focus{
+  background-color: #002F34!important;
+  color: white!important;
+  
+ }
+ .cardLoc{
+  display: inline-block;
+  /* border: 1px solid red!important; */
+  width: 100%!important;
+  margin-top: 1rem;
+ }
+ .locBody{
+  height: 10rem!important;
+ }
+ @media(min-width:1001px){
+  .productDesc{
+    width: 35rem!important;
+   }
+ }
+ .productRupees,
+ .productDetails,
+ .productDesc{
+  width: 100%!important;
+ }
+ /* .productCategoriesDescParent{
+
+  border: 1px solid red;
+ } */
+ .productPrice,
+ .productDetailsHead,
+ .productDescriptionHead,
+ .locBody{
+    font-size: 1.5rem!important;
+    color: #002F34!important;
+    font-family: fantasy!important;
+ }
+ .productCategory{
+  color: #002F34!important;
+  font-size: 1.5rem!important;
+  text-transform: capitalize;
+
+ }
+ .loaderContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 21rem;
+ }
+ @media(max-width:661px){
+  .seeMoreClass{
+    padding: 0rem;
+width: 6rem!important;
+  }
+ }
+ .customerImage{
+  height: 80%!important;
+ }
+ 
+
+

@@ -1,0 +1,200 @@
+.dropDownClass{
+    position: relative!important;
+    right: 15%;
+    display: flex!important;
+    justify-content: center;
+    align-items: center;
+}
+.inputSearch{
+    /* border: 2px solid black; */
+    width: 50%!important;
+    margin-right: 20rem;
+    box-shadow: none;
+    outline: black!important;
+    /* outline:invert!important; */
+    box-shadow: black!important;
+}
+
+#button-addon1{
+    background-color: black;
+    color: white;
+}
+.searchIcon{
+    font-size: 1.5rem;
+}
+.linksContainer{
+   
+    /* border: 1px solid red; */
+    width: 15rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.form{
+    width: 19rem;
+}
+.ListGroup{
+    display: none!important;
+}
+@media(max-width:1120px){
+    .FormCustom{
+        width: 13rem!important;
+    }
+    .linksContainer{
+        width: 20rem;
+    }
+}
+
+.saleBtn {
+    padding: 0.2rem;
+    width: 5rem;
+    border-radius: 2rem;
+    border: 7px solid red;
+    border-right-color: green;
+    border-bottom-color: rgb(182, 182, 31);
+  }
+  
+  ._7ac171fb{
+    display: flex;
+  }
+  .ac22b0e1{
+    margin-left: 2rem;
+  }
+  .ac22b0e1:hover{
+   fill: blue;
+  }
+  ._10c831ef{
+    fill: blue;
+}
+/* @media(max-width:1050px){
+    .FormCustom{
+        width: 18rem!important;
+    }
+} */
+@media(max-width:991px){
+    .FormCustom,
+    .insideForm,
+    .dropDownClass{
+        display: none!important;
+    }
+    .inputSearch{
+        width: 93%!important;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0.5rem;
+    }
+    .OlxLogoContainer{
+        display: none!important;
+    }
+    .linksContainer{
+        display: none!important;
+    }
+   
+    .hambergMenu{
+        display: inline-block!important;
+        width: 96.5%;
+        text-align: justify;
+        outline: none!important;
+        border: none!important;
+        outline:invert!important;
+        box-shadow: none!important;
+    }
+    .ListGroup{
+        display: block!important;
+        width: 90%!important;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1rem!important;  
+        margin-bottom: 1rem!important;   
+    }
+    .list-group-item:hover{
+        color: white!important;   
+        background-color: blue!important;
+    }
+    .dropDownMenu{
+        width: 70%!important;
+        max-height: 44vh;
+        overflow-y:  auto;
+        overflow-x:  hidden;
+       
+    }
+
+   
+}
+.categoryDropdown{
+    display: flex!important;
+    justify-content: center;
+    align-items: center;
+    color: black!important;
+
+}
+.navLinksCustom{
+    color: grey!important;
+}
+.navLinksCustom:hover{
+    color: #21AAB4!important;
+}
+.navLinksCustom.active{
+    color: black!important;
+
+}
+.Link{
+    color: black!important;
+    text-decoration: none;
+    border-bottom: 1px solid black;
+}
+.Link:hover{
+    
+    border-bottom: none;
+}
+
+/* DROPDOWN MENU  */
+.dropDownMenu{
+    width: 80vw;
+    height: 80vh;
+    /* width: 65rem; */
+  }
+  .dropdown-item{
+    color: #265a64!important;
+    display: inline-block;
+    width: 15rem!important;
+    
+  }
+  .dropdown-item:hover{
+    display: inline-block;
+    color:#23E5DB!important;
+    text-decoration: underline;
+    background-color: white!important;
+  
+  }
+  
+  .nav{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 0.85rem;
+  }
+  @media(max-width:661px){
+    .nav{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        font-size: 0.6rem;
+      }
+     
+  }
+  .dropDownLoader{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  @media(max-width:300px){
+    .firstHeaderCustomClass{
+        padding: 0rem!important;
+        display: flex!important;
+        justify-content: center!important;
+        align-items: center!important;
+        overflow-x: auto!important;
+    }
+  }
+  
+  
